@@ -10,7 +10,7 @@
 
 Translate with the provider you trust. Compare several translations, look up a word or picture, read a document, or use your computer's own OCR, speech, and spell checking.
 
-Free and open source · Windows, macOS, Linux · Plugins for local and cloud services
+Free and open source  · Windows, macOS, Linux · Plugins for local and cloud services
 
 [![Release](https://img.shields.io/github/v/release/ahatem/QTranslate?style=flat-square&color=4A90D9&label=latest)](https://github.com/ahatem/QTranslate/releases/latest)
 [![License](https://img.shields.io/github/license/ahatem/QTranslate?style=flat-square)](LICENSE)
