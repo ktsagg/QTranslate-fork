@@ -1,4 +1,4 @@
-package com.github.ahatem.qtranslate.plugins.ai
+package com.github.ahatem.qtranslate.plugins.ai2
 
 import com.github.ahatem.qtranslate.api.ocr.ImageData
 import com.github.ahatem.qtranslate.api.plugin.HttpClient
