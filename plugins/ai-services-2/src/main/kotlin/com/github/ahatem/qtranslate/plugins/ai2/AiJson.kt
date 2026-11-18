@@ -1,4 +1,4 @@
-package com.github.ahatem.qtranslate.plugins.ai
+package com.github.ahatem.qtranslate.plugins.ai2
 
 /**
  * Extracts a JSON document from raw model output.
