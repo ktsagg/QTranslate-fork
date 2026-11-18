@@ -34,8 +34,8 @@ class AITranslatorService(
 
     override suspend fun validate() = client.validate(profileProvider())
 
-    override val key: String = "ai-translator"
-    override val name: String = "AI Translate"
+    override val key: String = "ai-translator-2"
+    override val name: String = "AI Translate 2"
     override val version: String = "1.0.0"
     override val iconPath: String = "assets/ai-icon.svg"
     override val supportedLanguages: SupportedLanguages = SupportedLanguages.All
