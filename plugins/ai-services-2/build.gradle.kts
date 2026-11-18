@@ -15,7 +15,7 @@ dependencies {
 }
 
 tasks.shadowJar {
-    archiveBaseName.set("ai-services-plugin")
+    archiveBaseName.set("ai-services-plugin-2")
     archiveClassifier.set("")
     archiveVersion.set("")
 }
