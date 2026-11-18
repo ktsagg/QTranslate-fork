@@ -1,4 +1,4 @@
-package com.github.ahatem.qtranslate.plugins.ai
+package com.github.ahatem.qtranslate.plugins.ai2
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
