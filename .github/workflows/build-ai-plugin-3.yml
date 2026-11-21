@@ -19,5 +19,5 @@ jobs:
       - name: Upload JAR
         uses: actions/upload-artifact@v4
         with:
-          name: ai-services-3-plugin
+          name: ai-services-plugin-3
           path: plugins/ai-services-3/build/libs/*.jar

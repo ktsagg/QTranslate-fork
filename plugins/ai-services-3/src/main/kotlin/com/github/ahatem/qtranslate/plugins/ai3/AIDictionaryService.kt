@@ -26,8 +26,8 @@ class AIDictionaryService(
 
     override suspend fun validate() = client.validate(profileProvider())
 
-    override val key: String = "ai-dictionary"
-    override val name: String = "AI Dictionary"
+    override val key: String = "ai-dictionary-3"
+    override val name: String = "AI Dictionary 3"
     override val version: String = "1.0.0"
     override val iconPath: String = "assets/ai-icon.svg"
     override val supportedLanguages: SupportedLanguages = SupportedLanguages.All

@@ -26,8 +26,8 @@ class AISpellCheckerService(
 
     override suspend fun validate() = client.validate(profileProvider())
 
-    override val key: String = "ai-spell-checker"
-    override val name: String = "AI Spell Checker"
+    override val key: String = "ai-spell-checker-3"
+    override val name: String = "AI Spell Checker 3"
     override val version: String = "1.0.0"
     override val iconPath: String = "assets/ai-icon.svg"
     override val supportedLanguages: SupportedLanguages = SupportedLanguages.All

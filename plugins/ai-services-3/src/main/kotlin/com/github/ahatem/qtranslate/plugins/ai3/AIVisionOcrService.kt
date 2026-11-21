@@ -47,8 +47,8 @@ class AIVisionOcrService(
 
     override suspend fun validate() = client.validate(profileProvider())
 
-    override val key: String = "ai-ocr"
-    override val name: String = "AI Vision OCR"
+    override val key: String = "ai-ocr-3"
+    override val name: String = "AI Vision OCR 3"
     override val version: String = "1.0.0"
     override val iconPath: String = "assets/ai-icon.svg"
     override val supportedLanguages: SupportedLanguages = SupportedLanguages.All

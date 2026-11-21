@@ -289,7 +289,12 @@ class AIPlugin : Plugin<AISettings> {
 
     private fun buildServices() {
         activeServices = listOf(
-            AITranslatorService(client = serviceClient) { settings.profileFor(AiCapability.TRANSLATION) }
+            AITranslatorService(client = serviceClient) { settings.profileFor(AiCapability.TRANSLATION) },
+            AISummarizerService(client = serviceClient) { settings.profileFor(AiCapability.SUMMARIZATION) },
+            AIRewriterService(client = serviceClient) { settings.profileFor(AiCapability.REWRITE) },
+            AISpellCheckerService(client = serviceClient) { settings.profileFor(AiCapability.SPELL_CHECK) },
+            AIDictionaryService(client = serviceClient) { settings.profileFor(AiCapability.DICTIONARY) },
+            AIVisionOcrService(client = serviceClient) { settings.profileFor(AiCapability.VISION) }
         )
     }
 

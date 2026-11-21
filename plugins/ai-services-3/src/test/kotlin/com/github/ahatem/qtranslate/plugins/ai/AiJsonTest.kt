@@ -1,4 +1,4 @@
-package com.github.ahatem.qtranslate.plugins.ai
+package com.github.ahatem.qtranslate.plugins.ai3
 
 import kotlin.test.Test
 import kotlin.test.assertEquals

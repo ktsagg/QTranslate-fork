@@ -1,4 +1,4 @@
-package com.github.ahatem.qtranslate.plugins.ai
+package com.github.ahatem.qtranslate.plugins.ai3
 
 import com.github.ahatem.qtranslate.api.plugin.ServiceError
 import kotlin.test.Test
