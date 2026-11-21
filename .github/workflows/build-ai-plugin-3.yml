@@ -1,4 +1,4 @@
-name: Build AI Plugin 2
+name: Build AI Plugin 3
 
 on:
   workflow_dispatch:
