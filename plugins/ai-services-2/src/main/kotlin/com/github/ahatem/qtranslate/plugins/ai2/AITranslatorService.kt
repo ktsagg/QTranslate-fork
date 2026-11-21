@@ -55,7 +55,7 @@ class AITranslatorService(
         val source = request.sourceLanguage.displayName
         val target = request.targetLanguage.displayName
 
-        val system = "Translate $source to $target. Output ONLY the translation, preserving line breaks"
+        val system = "Translate $source to $target. Output ONLY translated text. Preserve line breaks"
 
         return client.complete(system, request.text, profileProvider()).map { translatedText ->
             TranslationResponse(translatedText = translatedText.trim())
